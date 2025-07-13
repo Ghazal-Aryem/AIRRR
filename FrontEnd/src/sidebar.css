@@ -1,0 +1,134 @@
+
+  
+  /* Logo Styling */
+  .logo {
+    
+    width: 150%; /* Adjust size as needed */
+    height:70px;
+    
+    
+  }
+  /* Sidebar  */
+  #sidebar {
+    grid-area: sidebar;
+    height: 100%;
+    background-color: #d7d9db;
+    overflow-y: auto;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  
+  .sidebar-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 15px 30px 0px 30px;
+    margin-bottom: 30px;
+  }
+  
+  .sidebar-title > span {
+    display: none;
+  }
+  
+  .sidebar-brand {
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #454546;
+  }
+  
+  .sidebar-list {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .sidebar-list-item {
+    padding: 20px 20px 20px 20px;
+    font-size: 18px;
+    
+  }
+  
+  .sidebar-list-item:hover {
+    background-color: rgba(26, 117, 228, 0.2);
+    cursor: pointer;
+  }
+  
+  .sidebar-list-item > a {
+    text-decoration: none;
+    color: #454546;}
+  
+  .sidebar-responsive {
+    display: inline !important;
+    position: absolute;
+    /*
+      we want the z-index of the sidebar higher so that
+      the charts are not showing over the sidebar 
+      on small screens
+    */
+    z-index: 12 !important;
+  }
+  .bars{
+    font-size: 30px;
+    color: #454546;
+    display: flex;
+    margin-left: 10 px;
+    margin-top: 10px;
+  }
+  
+  /* End Sidebar  */
+
+  /* Sidebar Expanded */
+.sidebar-expanded {
+    width: 250px;
+    transition: width 0.3s ease;
+  }
+  
+  /* Sidebar Collapsed */
+  .sidebar-collapsed {
+    width: 60px;
+    transition: width 0.3s ease;
+  }
+  
+  .sidebar-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .sidebar-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar-list-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .sidebar-list-item .icon {
+    margin-right: 10px;
+    margin: 0 auto;
+  }
+  
+  .bars {
+    
+    cursor: pointer;
+  
+  padding-right: 20px; /* Add padding to position it slightly inside */
+  
+  }
+  
+  .main-expanded {
+    margin-left: 250px;
+    transition: margin-left 0.3s ease;
+  }
+  
+  .main-collapsed {
+    margin-left: 10px;
+    transition: margin-left 0.3s ease;
+    margin: 0 auto;
+  }
+  

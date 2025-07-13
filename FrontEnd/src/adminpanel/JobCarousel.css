@@ -1,0 +1,116 @@
+/* Carousel Wrapper */
+.slick-slider {
+  margin: 0 10px;
+}
+
+/* Carousel Dots */
+.slick-dots {
+  bottom: -20px;
+}
+.slick-dots li button:before {
+  font-size: 12px;
+  color: #aaa; /* Dot color */
+}
+.slick-dots li.slick-active button:before {
+  color: #007bff; /* Active dot color */
+}
+
+/* Carousel Arrows */
+.slick-prev,
+.slick-next {
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  background-color: #007bff; /* Arrow background color */
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+.slick-prev:hover,
+.slick-next:hover {
+  background-color: #0056b3; /* Arrow hover color */
+}
+
+/* Carousel Cards */
+.carousel-card {
+  width: 300px; /* Fixed width */
+  height: 450px; /* Fixed height */
+  padding: 70px;
+  margin: 0 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Align content */
+  align-items: center; /* Center content horizontally */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.carousel-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Card Content */
+.card-content {
+  width: 100%;
+  height: 200%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+.job-title {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.5rem;
+  margin-bottom: 10px;
+}
+.job-title:hover {
+  text-decoration: underline;
+}
+
+/* Button Container */
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  align-items: center;
+}
+.upload-btn {
+  padding: 5px 10px;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  color: #007bff;
+  cursor: pointer;
+}
+.upload-btn:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.apply-btn {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+.apply-btn:hover {
+  background-color: #0056b3;
+}
+#job-list {
+  margin: 40px auto; /* Adds 40px space above and below */
+  padding: 20px; /* Adds internal spacing around the carousel */
+
+}
