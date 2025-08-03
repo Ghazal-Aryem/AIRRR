@@ -19,24 +19,24 @@ AIRRR (AI-Enabled Intelligent Resume Recommendation & Ranking) is an end-to-end 
 
 ## 📸 Screenshots
 ### 🖼️ Website Interface
-![home page](image.png)
-![login](image-1.png)
-![login](image-2.png)
-![user page](image-3.png)
-![matich score](image-4.png)
-![admin pagr](image-5.png)
-![admin matching](image-6.png)
-![admin user selected page](image-7.png)
-![alt text](image-8.png)
-![JD](image-9.png)
+![home page](Screenshot/image.png)
+![login](Screenshot/image-1.png)
+![login](Screenshot/image-2.png)
+![user page](Screenshot/image-3.png)
+![matich score](Screenshot/image-4.png)
+![admin pagr](Screenshot/image-5.png)
+![admin matching](Screenshot/image-6.png)
+![admin user selected page](Screenshot/image-7.png)
+![alt text](Screenshot/image-8.png)
+![JD](Screenshot/image-9.png)
 ### 📊 Model Accuracy Output
 ### matching
-![matching](image-10.png)
+![matching](Screenshot/image-10.png)
 ### Extraction 
-![Extraction](image-11.png)
-![Extraction](image-12.png)
+![Extraction](Screenshot/image-11.png)
+![Extraction](Screenshot/image-12.png)
 ## prediction / categorized
-![categorized](image-13.png) 
+![categorized](Screenshot/image-13.png) 
 
 
 
