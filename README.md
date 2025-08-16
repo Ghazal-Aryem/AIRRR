@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # AIRRR - AI Enabled Resume Recommendation System
 
 AIRRR (AI-Enabled Intelligent Resume Recommendation & Ranking) is an end-to-end tool designed for recruiters to analyze, score, and recommend job candidates based on their resumes using NLP and AI techniques. It streamlines the hiring process by automatically parsing resumes, matching them to job descriptions, and recommending top-fit candidates.
